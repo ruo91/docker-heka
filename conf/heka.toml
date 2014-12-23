@@ -1,6 +1,6 @@
 [LogstreamerInput]
-log_directory = "/tmp"
-file_match = 'heka\.log'
+log_directory = "/var/log"
+file_match = 'auth\.log'
 
 [PayloadEncoder]
 append_newlines = false
