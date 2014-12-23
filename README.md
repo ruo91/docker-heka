@@ -18,7 +18,7 @@ root@ruo91:~# ssh `docker inspect -f '{{ .NetworkSettings.IPAddress }}' heka`
 
 
 Mozilla Heka
-![Mozilla Heka][7]
+![Mozilla Heka][1]
 
 
 Thanks. :-)
