@@ -16,3 +16,11 @@ root@ruo91:~# docker run -d --name="heka" -h "heka" -v /var/log:/log heka
 root@ruo91:~# ssh `docker inspect -f '{{ .NetworkSettings.IPAddress }}' heka`
 ```
 
+
+Mozilla Heka
+![Mozilla Heka][7]
+
+
+Thanks. :-)
+
+  [1]: http://cdn.yongbok.net/ruo91/img/heka/heka.png
